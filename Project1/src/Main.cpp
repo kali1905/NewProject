@@ -1,8 +1,8 @@
 #include <iostream>
 
-void Log(const char* message);
-
-int main() {
-	Log("Hello, World!");
+int main()
+{
+	long double variable = 0.9876545678;
+	std::cout << variable << std::endl;
 	std::cin.get();
 }
